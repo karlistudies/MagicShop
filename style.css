@@ -1,0 +1,84 @@
+body{
+  margin: 6em;
+  background-color: DarkSeaGreen;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+h1{
+  text-align:center;
+  animation: headingColor 10s infinite;
+}
+
+@keyframes headingColor {
+  0%{color: #2D745C;}
+  20%{color: #428C62;}
+  40%{color: #2E8D36;}
+  60%{color: #2D745C;}
+  80%{color: #428C62;}
+  100%{color: #2E8D36;}
+}
+
+img{
+  width: 300px;
+}
+
+/*plant*/
+.plant {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1fab4.png) 36 36, auto;
+}
+
+/*lightblub*/
+.lightblub {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f4a1.png) 36 36, auto;
+}
+
+/*cactus*/
+.cactus {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f335.png) 36 36, auto;
+}
+
+section{
+  display: flex;
+  padding: 1rem;
+}
+
+figure{
+  display: flex;
+  align-self: flex-start;
+  position: sticky;
+  top: 1rem;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+button{
+  background-color: 
+  color:#2D745C 
+  font-family:"Roboto", sans-serif;
+  padding: 10px;
+}
